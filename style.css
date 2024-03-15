@@ -29,10 +29,10 @@ html{
     top:50px;
 }
 .brand{
-    font-size: 30px;
-    font-family: Arial Black;
+    font-size: 60px;
+    font-family: Gray;
     font-variant: small-caps;
-    color: orangered;
+    color: darkblue;
 }
 .navmenu{
     color: black;
@@ -76,9 +76,9 @@ html{
   }
 #home{
    height: 370px;
-   background-image: url("https://camo.githubusercontent.com/19db51af5f90f1b152bc0b9078f5fe97053955be5074f03f17019c70345bdcdb/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966");
+   background-image: url("https://cdn.dribbble.com/users/1118376/screenshots/3604186/developer-dribbble.gif");
    background-repeat: no-repeat;
-   background-size:45%;
+   background-size:40%;
    background-position:90% 20%;
    border: none;
 }
