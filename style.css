@@ -29,10 +29,11 @@ html{
     top:50px;
 }
 .brand{
-    font-size: 60px;
+    font-size: 50px;
     font-family: Gray;
     font-variant: small-caps;
     color: darkblue;
+
 }
 .navmenu{
     color: black;
@@ -94,7 +95,7 @@ html{
 }
 .info{
     font-weight: bolder;
-    color: lightslategray;
+    color: black;
 }
 .designation{
     color: royalblue;
@@ -102,7 +103,8 @@ html{
     font-weight: bolder;
 }
 .myname{
-    font-size: 35px;
+    font-size: 40px;
+
 }
 .rsmbtn{
     height: 40px;
@@ -122,4 +124,55 @@ html{
     border: 3px solid royalblue;
    
     transform: scale(1.1);
+}
+.about-section{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+
+}
+.aboutmain{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.abouotmain div{
+    height: 500px;
+    width: 50%;
+
+}
+.minion{
+    margin-top: 100px;
+    margin-left: 70px;
+    animation-duration: 4s;
+    animation-name: zoom;
+    animation-iteration-count: 1;
+}
+@keyframes zoom{
+    100%{
+        transform: scale(1.2);
+        border-radius: 50px;
+    }
+}
+.heading{
+    font-family: Arial Black;
+    text-align: center;
+    margin-top: 60px 0px;
+    font-size: 40px;
+    color: royalblue;
+}
+.carrerobj{
+    padding: 90px ;
+    color: blue;
+}
+.carrerinfo{
+    text-align: justify;
+    line-height: 40px;
+    text-indent: 100px;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    color: black;
 }
